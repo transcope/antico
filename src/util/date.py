@@ -3,7 +3,7 @@
 import datetime as dt
 
 def cal_interval_days(d, start_d):
-    """calculate interval days from the start date.
+    """ count interval days between the given day and the start date.
         Args:
             d: datetime.date, some date
             start_d: datetime.date, beginning date

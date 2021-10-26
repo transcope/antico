@@ -3,7 +3,7 @@
 """ Evaluate dense subgraph based anti-cashout detection (creditcard-side) """
 
 
-def run_aco(graph, n_blocks=3, scoring=False):
+def run_antico(graph, n_blocks=3, scoring=False):
     """ anti-cashout detection case
     Args:
        graph: graph data
@@ -12,12 +12,12 @@ def run_aco(graph, n_blocks=3, scoring=False):
     Returns:
        dense blocks 
     """
-    from aco.src.detect import detect_multiple 
-    from aco.src.detect import detect_multiple_scoring 
-    from aco.src.util.mat import transform 
-    from aco.src.greedy import fast_greedy_decreasing as eval_func 
+    from antico.src.detect import detect_multiple 
+    from antico.src.detect import detect_multiple_scoring 
+    from antico.src.util.mat import transform 
+    from antico.src.greedy import fast_greedy_decreasing as eval_func 
     #
-    func_name = run_aco.__name__
+    func_name = run_antico.__name__
     #
     detect_blocks = (detect_multiple_scoring if scoring else detect_multiple)
     # transform to dsad graph 
@@ -45,12 +45,13 @@ def run_aco(graph, n_blocks=3, scoring=False):
 if __name__ == '__main__':
     
     from read import read_c2m_data
-    from aco.src.graph import create_bigraph
+    from score import scoring 
+    from antico.src.graph import create_bigraph
     #
-    from aco.config import data_path
-    from aco.config import start_date as start_t
-    from aco.config import end_date   as end_t
-    from aco.config import time_spans as spans
+    from antico.config import data_path
+    from antico.config import start_date as start_t
+    from antico.config import end_date   as end_t
+    from antico.config import time_spans as spans
 
     # load data 
     c_filenames = ['cards.gz']
@@ -68,13 +69,17 @@ if __name__ == '__main__':
     args = {'Start': start_t, 'TimeSpan': spans}
     c_exps, m_exps = create_bigraph(transactions, cards, merchants, args) 
     graph = [c_exps, m_exps]
+    #
     # dense subgraph detection
-    top_n = 3 
-    res = run_aco(graph, top_n, True)
-    # evaluate 
-
+    top_n = 2 
+    res = run_antico(graph, top_n, True)
+    #
     # output 
     import json
     output_file = './blocks.json'
     with open(output_file, 'w') as f:
         json.dump(res, f)
+    #
+    # 
+    sc = scoring(res, cards, top_n)
+    print(sc)

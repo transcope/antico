@@ -1,6 +1,6 @@
 
-from aco.src.util.find import load_param
-from aco.src.util.load import *
+from antico.src.util.find import load_param
+from antico.src.util.load import *
 
 
 def read_c2m_data(params):
@@ -50,7 +50,7 @@ def read_card_data(files):
                     d_date = int(vals[3])
                     c_sort = int(vals[4])
                     label  = int(vals[5])
-                    res.append((cid, label))
+                    res.append((cid, quant, label))
     except Exception as e:
         print('[{}] {}'.format(func_name, e))
     return res
@@ -58,7 +58,7 @@ def read_card_data(files):
 
 if __name__ == '__main__':
     
-    from aco.config import data_path
+    from antico.config import data_path
 
     c_filenames = ['test_cards.gz']
     m_filenames = ['test_merchants.gz']

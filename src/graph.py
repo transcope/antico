@@ -78,13 +78,14 @@ def cal_edge_weight (exps_data, quant, start_t, spans, f_key):
     #from ..config import fusion as f_key
     #
     from .util.date import cal_interval_days
-    from ..config import date_format as fmt
+    from ..config import date_format as fmt1
+    from ..config import datetime_format as fmt2
     #
     func_name = cal_edge_weight.__name__
     #
     fusion = (f_dict[f_key] if f_key in f_dict else None)
     #
-    start_d = dt.datetime.strptime(start_t, fmt).date()
+    start_d = dt.datetime.strptime(start_t, fmt1).date()
     n_days = sum(spans)
     #
     mids = set()
@@ -92,7 +93,7 @@ def cal_edge_weight (exps_data, quant, start_t, spans, f_key):
     for val in exps_data:
         mid = val[0]
         exp = val[1]
-        day = dt.datetime.strptime(val[-1], fmt).date()
+        day = dt.datetime.strptime(val[-1], fmt2).date()
         idx = cal_interval_days(day, start_d)
         exps_per_day[idx].append((mid, exp))
         mids.add(mid)
@@ -102,7 +103,7 @@ def cal_edge_weight (exps_data, quant, start_t, spans, f_key):
     for (i,(a,b)) in enumerate(zip(offsets[:-1], offsets[1:])):
         exps = []
         for (j, vals) in enumerate(exps_per_day[a:b]):
-            ts = dt.datetime.strftime(start_d + dt.timedelta(days=a+j), fmt)
+            ts = dt.datetime.strftime(start_d + dt.timedelta(days=a+j), fmt1)
             exps += [(v[-1], ts) for v in vals]
         m_list.append(cal_metrics(exps, spans[i], quant))
     score = fusion(np.array(m_list).T)

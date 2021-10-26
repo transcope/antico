@@ -68,7 +68,7 @@ def read_transaction_data(files):
                     obj_a = str(vals[0])
                     obj_b = str(vals[1])
                     exp = float(vals[2])
-                    ts  = str(vals[3])
+                    ts = '{} {}'.format(vals[3], vals[4])
                     transactions.append((obj_a, obj_b, exp, ts))
     except Exception as e:
         print('[{}] {}'.format(func_name, e))

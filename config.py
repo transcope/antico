@@ -14,14 +14,13 @@ temp_path = '{}/tmp'.format(home_path)
 #
 MIN_UNIT = 1e-7
 
-
 # -----------------------------
 #
 # antico runtime parameters
 #
 # -----------------------------
-#date_format = '%Y-%m-%d %H:%M:%S'
 date_format = '%Y-%m-%d'
+datetime_format = '%Y-%m-%d %H:%M:%S'
 # metric options {gini1, gini2, vc, kurt, skew}
 metric = 'gini2'
 # fusion options {mul, exp, sig}
