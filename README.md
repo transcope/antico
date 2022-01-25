@@ -1,4 +1,4 @@
-Code for paper "Dense Subgraph Mining for Cash-out User Detection in Bank" 
+Code for paper "Detecting Cash-out Users via Dense Subgraphs" 
 
 ANTICO is developped for spotting cash-out users based on bipartite graph and subgraph detection. It is designed for credit card services and real-world banking data.
 
