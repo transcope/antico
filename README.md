@@ -12,6 +12,8 @@ Main Contact:
 
 Support python 3.6
 
+    pip install -r requirements.txt
+
 
 The direct way to use ANTICO is to run in command line:
 
