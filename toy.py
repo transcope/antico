@@ -3,6 +3,13 @@
 """ Evaluate dense subgraph based anti-cashout detection (creditcard-side) """
 
 
+import sys
+import os
+
+parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+sys.path.append(parent_dir)
+
+
 def run_antico(graph, n_blocks=3, scoring=False):
     """ anti-cashout detection case
     Args:
@@ -44,8 +51,8 @@ def run_antico(graph, n_blocks=3, scoring=False):
 
 if __name__ == '__main__':
     
-    from read import read_c2m_data
-    from score import scoring 
+    from antico.case.read import read_c2m_data
+    from antico.case.score import scoring 
     from antico.src.graph import create_bigraph
     #
     from antico.config import data_path

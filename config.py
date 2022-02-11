@@ -2,10 +2,13 @@
 
 """ configuration """
 
+# from __future__ import absolute_import
 from . import project_path
+#import os
 
 # home path 
 home_path = project_path  
+#home_path = os.path.dirname(__file__)
 # data directory 
 data_path = '{}/data'.format(home_path)
 # temp data directory
