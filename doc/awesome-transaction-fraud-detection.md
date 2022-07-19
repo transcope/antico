@@ -42,7 +42,7 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 | CubeFlow | [CubeFlow: Money Laundering Detection with Coupled Tensors](https://shenghua-liu.github.io/papers/cubeflow-pakdd2021.pdf) | PAKDD 2021 |
 | FlowScope | [FlowScope: Spotting Money Laundering Based on Graphs](https://shenghua-liu.github.io/papers/aaai2020cr-flowscope.pdf) | AAAI 2020 |
 | ANTICO | Detecting Cash-out Users via Dense Subgraphs | KDD 2022 |
-| HACUD  | [Cash-Out User Detection Based on Attributed Heterogeneous Information Network with a Hierarchical Attention Mechanism](http://www.shichuan.org/doc/64.pdf) | AAAI 2019 |
+| HACUD  | [Cash-Out User Detection Based on Attributed Heterogeneous Information Network <br> with a Hierarchical Attention Mechanism](http://www.shichuan.org/doc/64.pdf) | AAAI 2019 |
 
 ### More details
 
