@@ -3,7 +3,7 @@
 A list of works on fraud detection in transaction data. 
 
 ## 2022
-- <div id = '1'>**MonLAD: Money Laundering Agents Detection in Transaction Streams (WSDM 2022)** </div>
+- **<div id = '1'>MonLAD: Money Laundering Agents Detection in Transaction Streams (WSDM 2022)</div>** 
   - Xiaobing Sun, Wenjie Feng, Shenghua Liu, Yuyang Xie, Siddharth Bhatia, Bryan Hooi, Wenhan Wang, Xueqi Cheng
   - [[Paper]](https://shenghua-liu.github.io/papers/wsdm2022-monlad.pdf), [[Code]](https://github.com/BGT-M/MonLAD)
 
