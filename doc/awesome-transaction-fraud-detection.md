@@ -27,6 +27,11 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
   - Xiangfeng Li, Shenghua Liu, Zifeng Li, Xiaotian Han, Chuan Shi, Bryan Hooi, He Huang, Xueqi Cheng
   - [[Paper]](https://shenghua-liu.github.io/papers/aaai2020cr-flowscope.pdf), [[Code]](https://github.com/aplaceof/FlowScope)
 
+- **Spatio-Temporal Attention-Based Neural Network for Credit Card Fraud Detection
+ (AAAI 2020)**
+  - Dawei Cheng, Sheng Xiang, Chencheng Shang, Yiyi Zhang, Fangzhou Yang, Liqing Zhang
+  - [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/download/5371/5227)
+
 - **Modeling Users’ Behavior Sequences with Hierarchical Explainable Network for Cross-domain Fraud Detection (WWW 2020)**
   - Yongchun Zhu, Dongbo Xi, Bowen Song, Fuzhen Zhuang, Shuai Chen, Xi Gu, Qing He
   - [[Paper]](https://www.researchgate.net/profile/Bowen-Song-13/publication/341123092_Modeling_Users'_Behavior_Sequences_with_Hierarchical_Explainable_Network_for_Cross-domain_Fraud_Detection/links/60004b76299bf1408893f900/Modeling-Users-Behavior-Sequences-with-Hierarchical-Explainable-Network-for-Cross-domain-Fraud-Detection.pdf), [[Slider]](https://easezyc.github.io/data/WWW20_HEN_slides.pdf)
@@ -46,6 +51,10 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
   - [[Paper]](https://arxiv.org/pdf/1907.07225.pdf)
 
 ## 2017
+- **HitFraud: A Broad Learning Approach for Collective Fraud Detection in Heterogeneous Information Networks (ICDM 2017)**
+  - Bokai Cao, Mia Mao, Siim Viidu, Philip S. Yu
+  - [[Paper]](https://www.cs.uic.edu/~bcao1/doc/icdm17.pdf)
+
 - **Graph Mining Assisted Semi-supervised Learning for Fraudulent Cash-out Detection (ASONMA 2017)**
   - Yuan Li, Yiheng Sun, Noshir Contractor
   - [[Paper]](https://nosh.northwestern.edu/wp-content/uploads/2020/10/Graph-mining-assisted-semi-supervised-learning-for-fraudulent-cash-out-detection.pdf), [[Slider]](https://nosh.northwestern.edu/wp-content/uploads/2017/08/asonam2017-graph-mining.pdf)
@@ -70,6 +79,7 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 | HEN | Fraudulent transactions | E-commerce | Transfer Learning |
 | TitAnt | Fraudulent transactions | E-payment | Graph Embedding |
 | DeepTrax | Fraudulent transactions | Credit card | Graph Embedding |
+| HitFraud | Fraudulent transactions | E-commerce | HIN |
 | APATE | Fraudulent transactions | Credit card | Social network analysis |
 
 
