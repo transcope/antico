@@ -3,7 +3,6 @@
 A list of works on fraud detection in transaction data. 
 
 ## 2022
-
 - **MonLAD: Money Laundering Agents Detection in Transaction Streams (WSDM 2022)**
   - Xiaobing Sun, Wenjie Feng, Shenghua Liu, Yuyang Xie, Siddharth Bhatia, Bryan Hooi, Wenhan Wang, Xueqi Cheng
   - [[Paper]](https://shenghua-liu.github.io/papers/wsdm2022-monlad.pdf), [[Code]](https://github.com/BGT-M/MonLAD)
@@ -14,6 +13,9 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
   - [[Code]](https://github.com/transcope/antico)
 
 ## 2021
+- **xFraud: Explainable Fraud Transaction Detection**
+  - Susie Xi Rao, Shuai Zhang, Zhichao Han, Zitao Zhang, Wei Min, Zhiyao Chen, Yinan Shan, Yang Zhao, Ce Zhang
+  - [[Paper]](https://drive.google.com/file/d/1OS-iB82tRSM6jbnBiEKbQ87hTeRDfX9K/view), [[Code]](https://github.com/eBay/xFraud/)
 
 - **CubeFlow: Money Laundering Detection with Coupled Tensors (PAKDD 2021)**
   - Xiaobing Sun, Jiabao Zhang, Qiming Zhao, Shenghua Liu, Jinglei Chen, Ruoyu Zhuang, Huawei Shen, Xueqi Cheng  
@@ -31,6 +33,10 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
   - Binbin Hu, Zhiqiang Zhang, Chuan Shi, Jun Zhou, Xiaolong Li, Yuan Qi
   - [[Paper]](http://www.shichuan.org/doc/64.pdf), [[Code]](https://github.com/safe-graph/DGFraud)
 
+- **Deeptrax: Embedding Graphs of Financial Transactions (ICMLA 2019)**
+  - C. Bayan Bruss, Anish Khazane, Jonathan Rider, Richard Serpe, Antonia Gogoglou, Keegan E. Hines
+  - [[Paper]](https://arxiv.org/pdf/1907.07225.pdf)
+
 
 ## Summary
 
@@ -43,13 +49,17 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 | FlowScope | [FlowScope: Spotting Money Laundering Based on Graphs](https://shenghua-liu.github.io/papers/aaai2020cr-flowscope.pdf) | AAAI 2020 |
 | ANTICO | Detecting Cash-out Users via Dense Subgraphs | KDD 2022 |
 | HACUD  | [Cash-Out User Detection Based on Attributed Heterogeneous Information Network with a Hierarchical Attention Mechanism](http://www.shichuan.org/doc/64.pdf) | AAAI 2019 |
+| xFraud | xFraud: Explainable Fraud Transaction Detection | VLDB 2022 |
+| DeepTrax | [Deeptrax: Embedding Graphs of Financial Transactions](https://arxiv.org/pdf/1907.07225.pdf) | ICMLA 2019 |
 
 ### More details
 
 | Model | Business problem | Scenario | Method |
-| :---- | :----: | :----: | :----: | 
+| :---- | :---- | :---- | :---- | 
 | MonLAD | Anti-money Laundering | Bank | DSD |
 | CubeFlow | Anti-money Laundering | Bank | DSD |
 | FlowScope | Anti-money Laundering | Bank | DSD |
-| ANTICO | Cash-out Detection | Bank | DSD |
+| ANTICO | Cash-out Detection | Credit card | DSD |
 | HACUD  | Cash-out Detection | Online payment | HIN |
+| xFraud | Fraudulent transactions | E-commerce | Heterogeneous GNN |
+| DeepTrax | Fraudulent transactions | Credit card | Graph Embedding |
