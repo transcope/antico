@@ -3,7 +3,7 @@
 A list of works on fraud detection in transaction data. 
 
 ## 2022
-- **MonLAD: Money Laundering Agents Detection in Transaction Streams (WSDM 2022)**
+- <div id = '1'>**MonLAD: Money Laundering Agents Detection in Transaction Streams (WSDM 2022)** <div>
   - Xiaobing Sun, Wenjie Feng, Shenghua Liu, Yuyang Xie, Siddharth Bhatia, Bryan Hooi, Wenhan Wang, Xueqi Cheng
   - [[Paper]](https://shenghua-liu.github.io/papers/wsdm2022-monlad.pdf), [[Code]](https://github.com/BGT-M/MonLAD)
 
@@ -41,8 +41,6 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
   - Shaosheng Cao, XinXing Yang, Cen Chen, Jun Zhou, Xiaolong Li, Yuan Qi  
   - [[Paper]](http://www.vldb.org/pvldb/vol12/p2082-cao.pdf)
 
-  InfDetect: a Large Scale Graph-based Fraud Detection System for E-Commerce Insurance
-
 - **Deeptrax: Embedding Graphs of Financial Transactions (ICMLA 2019)**
   - C. Bayan Bruss, Anish Khazane, Jonathan Rider, Richard Serpe, Antonia Gogoglou, Keegan E. Hines
   - [[Paper]](https://arxiv.org/pdf/1907.07225.pdf)
@@ -53,7 +51,7 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
   - [[Paper]](https://nosh.northwestern.edu/wp-content/uploads/2020/10/Graph-mining-assisted-semi-supervised-learning-for-fraudulent-cash-out-detection.pdf), [[Slider]](https://nosh.northwestern.edu/wp-content/uploads/2017/08/asonam2017-graph-mining.pdf)
 
 ## 2015
-- **APATE: A Novel Approach for Automated Credit Card Transaction Fraud Detection using Network-Based Extensions (ASONMA 2017)**
+- **APATE: A Novel Approach for Automated Credit Card Transaction Fraud Detection using Network-Based Extensions (DSS 2015)**
   - Véronique Van Vlasselaer, Cristián Bravo, Olivier Caelen, Tina EliassRad, Leman Akoglu, Monique Snoeck, Bart Baesen
   - [[Paper]](http://www.eliassi.org/papers/vanvlasselaer_dss2015.pdf)
 
@@ -62,7 +60,7 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 
 | Model | Business problem | Scenario | Method |
 | :---- | :---- | :---- | :---- | 
-| MonLAD | Anti-money laundering | Bank | DSD |
+| [MonLAD](#1) | Anti-money laundering | Bank | DSD |
 | CubeFlow | Anti-money laundering | Bank | DSD |
 | FlowScope | Anti-money laundering | Bank | DSD |
 | ANTICO | Cash-out detection | Credit card | DSD |
