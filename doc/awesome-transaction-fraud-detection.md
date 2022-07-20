@@ -75,14 +75,14 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 
 ## Summary
 
-| Algorithm | Business problem | Scenario | Method |
+| Works | Business problem | Scenario | Method |
 | :---- | :---- | :---- | :---- | 
 | [MonLAD](#1) | Anti-money laundering | Bank | DSD |
 | CubeFlow | Anti-money laundering | Bank | DSD |
 | FlowScope | Anti-money laundering | Bank | DSD |
 | ANTICO | Cash-out detection | Credit card | DSD |
-| HACUD  | Cash-out detection | Credit payment | HIN |
 | FDA    | Cash-out detection | Credit card | Feature engineering | 
+| HACUD  | Cash-out detection | Credit payment | HIN |
 | JD-Finance | Cash-out detection | Credit payment | Markov Random Field |
 | xFraud | Fraudulent transactions | E-commerce | Heterogeneous GNN |
 | HitFraud | Fraudulent transactions | E-commerce | HIN |
