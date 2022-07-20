@@ -49,6 +49,10 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 - **Deeptrax: Embedding Graphs of Financial Transactions (ICMLA 2019)**
   - C. Bayan Bruss, Anish Khazane, Jonathan Rider, Richard Serpe, Antonia Gogoglou, Keegan E. Hines
   - [[Paper]](https://arxiv.org/pdf/1907.07225.pdf)
+ 
+- **Feature Construction for Fraudulent Credit Card Cash-out Detection (DSS 2019)**
+  - Yue Wu, Yunjie Xu, Jiaoyang Li
+  - [[Paper]](https://sci-hub.wf/10.1016/j.dss.2019.113155) 
 
 ## 2017
 - **HitFraud: A Broad Learning Approach for Collective Fraud Detection in Heterogeneous Information Networks (ICDM 2017)**
@@ -67,13 +71,14 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 
 ## Summary
 
-| Model | Business problem | Scenario | Method |
+| Algorithm | Business problem | Scenario | Method |
 | :---- | :---- | :---- | :---- | 
 | [MonLAD](#1) | Anti-money laundering | Bank | DSD |
 | CubeFlow | Anti-money laundering | Bank | DSD |
 | FlowScope | Anti-money laundering | Bank | DSD |
 | ANTICO | Cash-out detection | Credit card | DSD |
 | HACUD  | Cash-out detection | Credit payment | HIN |
+| FDA    | Cash-out detection | Credit card | Feature engineering | 
 | JD-Finance | Cash-out detection | Credit payment | Markov Random Field |
 | xFraud | Fraudulent transactions | E-commerce | Heterogeneous GNN |
 | HEN | Fraudulent transactions | E-commerce | Transfer Learning |
