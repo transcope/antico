@@ -35,6 +35,9 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 - **Modeling Users’ Behavior Sequences with Hierarchical Explainable Network for Cross-domain Fraud Detection (WWW 2020)**
   - Yongchun Zhu, Dongbo Xi, Bowen Song, Fuzhen Zhuang, Shuai Chen, Xi Gu, Qing He
   - [[Paper]](https://www.researchgate.net/profile/Bowen-Song-13/publication/341123092_Modeling_Users'_Behavior_Sequences_with_Hierarchical_Explainable_Network_for_Cross-domain_Fraud_Detection/links/60004b76299bf1408893f900/Modeling-Users-Behavior-Sequences-with-Hierarchical-Explainable-Network-for-Cross-domain-Fraud-Detection.pdf), [[Slider]](https://easezyc.github.io/data/WWW20_HEN_slides.pdf)
+
+- **Deep Representation Learning With Full Center Loss for Credit Card Fraud Detection (TCSS 2020)**
+  - Zhenchuan Li, Guanjun Liu, Changjun Jiang
   
 ## 2019
 
@@ -52,9 +55,10 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
  
 - **Feature Construction for Fraudulent Credit Card Cash-out Detection (DSS 2019)**
   - Yue Wu, Yunjie Xu, Jiaoyang Li
-  - [[Paper]](https://sci-hub.wf/10.1016/j.dss.2019.113155) 
+  - [[Paper]](https://sci-hub.wf/10.1016/j.dss.2019.113155)  
 
 ## 2017
+
 - **HitFraud: A Broad Learning Approach for Collective Fraud Detection in Heterogeneous Information Networks (ICDM 2017)**
   - Bokai Cao, Mia Mao, Siim Viidu, Philip S. Yu
   - [[Paper]](https://www.cs.uic.edu/~bcao1/doc/icdm17.pdf)
@@ -81,10 +85,12 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 | FDA    | Cash-out detection | Credit card | Feature engineering | 
 | JD-Finance | Cash-out detection | Credit payment | Markov Random Field |
 | xFraud | Fraudulent transactions | E-commerce | Heterogeneous GNN |
-| HEN | Fraudulent transactions | E-commerce | Transfer Learning |
+| HitFraud | Fraudulent transactions | E-commerce | HIN |
 | TitAnt | Fraudulent transactions | E-payment | Graph Embedding |
 | DeepTrax | Fraudulent transactions | Credit card | Graph Embedding |
-| HitFraud | Fraudulent transactions | E-commerce | HIN |
 | APATE | Fraudulent transactions | Credit card | Social network analysis |
+| HEN | Fraudulent transactions | E-commerce | Transfer Learning |
+| STAN | Fraudulent transactions | Credit card | Deep learning | 
+| FCL | Fraudulent transactions | Credit card | Deep learning | 
 
 
