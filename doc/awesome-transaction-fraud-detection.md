@@ -75,20 +75,20 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 
 ## Summary
 
-| Works | Business problem | Scenario | Method |
-| :---- | :---- | :---- | :---- | 
-| [MonLAD](#monlad) | Anti-money laundering | Payment and Settlement | DSD |
-| [CubeFlow](#cubeflow) | Anti-money laundering | Payment and Settlement | DSD |
-| [FlowScope](#flowscope) | Anti-money laundering | Payment and Settlement | DSD |
-| [ANTICO](#antico) | Cash-out detection | Credit card | DSD |
-| [HACUD](#hacud)  | Cash-out detection | Credit payment | HIN |
-| [FDA](#fda)    | Cash-out detection | Credit card | Feature engineering | 
-| [JD-Finance](#jdfinance) | Cash-out detection | Credit payment | Markov Random Field |
-| [xFraud](#xfraud) | Fraudulent transactions | E-commerce | Heterogeneous GNN |
-| [HitFraud](#hitfraud) | Fraudulent transactions | E-commerce | HIN |
-| [TitAnt](#titant) | Fraudulent transactions | E-payment | Graph Embedding |
-| [DeepTrax](#deeptrax) | Fraudulent transactions | Credit card | Graph Embedding |
-| [APATE](#apate) | Fraudulent transactions | Credit card | Social network analysis |
-| [HEN](#hen) | Fraudulent transactions | E-commerce | Transfer Learning |
-| [STAN](#stan) | Fraudulent transactions | Credit card | Deep learning | 
-| [FCL](fcl) | Fraudulent transactions | Credit card | Deep learning | 
+| Works | Business problem | Scenario | Data modeling | Method type | Method |
+| :---- | :---- | :---- | :---- | :---- | :---- | 
+| [MonLAD](#monlad) | Anti-money laundering | Payment and Settlement | Streaming directed multigraph | Unsupervised | EVT-based anomaly detection |
+| [CubeFlow](#cubeflow) | Anti-money laundering | Payment and Settlement | Coupled Tensors | Unsupervised | Dense subtensor detection |
+| [FlowScope](#flowscope) | Anti-money laundering | Payment and Settlement | Multipartite graph | Unsupervised | Dense subgraph detection |
+| [ANTICO](#antico) | Cash-out detection | Credit card | Bipartite multigraph | Unsupervised | Dense subgraph detection |
+| [HACUD](#hacud)  | Cash-out detection | Credit payment | Attributed HIN | Supervised | Heterogenous GNN |
+| [FDA](#fda)    | Cash-out detection | Credit card | Tabular data | - | Feature engineering |
+| [JD-Finance](#jdfinance) | Cash-out detection | Credit payment | Bipartite graph | Semi-supervised | Markov Random Field |
+| [xFraud](#xfraud) | Fraudulent transactions | E-commerce | Heterogeneous graph | Supervised | Heterogenous GNN |
+| [HitFraud](#hitfraud) | Fraudulent transactions | E-commerce | HIN | Supervised | Meta-path based feature enhanced machine learning |
+| [TitAnt](#titant) | Fraudulent transactions | E-payment | Directed homogeneous graph| Supervised | Graph embedding enhanced machine learning|
+| [DeepTrax](#deeptrax) | Fraudulent transactions | Credit card | Meta-path induced homogeneous graph| Unsupervised | Graph Embedding |
+| [APATE](#apate) | Fraudulent transactions | Credit card | Tripartite graph | Supervised | Fraud propagation feature enhanced machine learning |
+| [HEN](#hen) | Fraudulent transactions | E-commerce | Behaviour event sequence | Supervised | Deep learning and transfer learning |
+| [STAN](#stan) | Fraudulent transactions | Credit card | Tabular data | Supervised | Deep learning |
+| [FCL](fcl) | Fraudulent transactions | Credit card | Tabular data | Supervised | Deep learning | 
