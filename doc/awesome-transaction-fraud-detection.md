@@ -77,9 +77,9 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 
 | Works | Business problem | Scenario | Method |
 | :---- | :---- | :---- | :---- | 
-| [MonLAD](#1) | Anti-money laundering | Bank | DSD |
-| CubeFlow | Anti-money laundering | Bank | DSD |
-| FlowScope | Anti-money laundering | Bank | DSD |
+| [MonLAD](#1) | Anti-money laundering | Payment and Settlement | DSD |
+| CubeFlow | Anti-money laundering | Payment and Settlement  | DSD |
+| FlowScope | Anti-money laundering | Payment and Settlement | DSD |
 | ANTICO | Cash-out detection | Credit card | DSD |
 | FDA    | Cash-out detection | Credit card | Feature engineering | 
 | HACUD  | Cash-out detection | Credit payment | HIN |
