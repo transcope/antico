@@ -3,23 +3,37 @@
 A list of works on fraud detection in transaction data. 
 
 ## 2022
+
 - **<div id = 'monlad'>MonLAD: Money Laundering Agents Detection in Transaction Streams (WSDM 2022)</div>** 
   - Xiaobing Sun, Wenjie Feng, Shenghua Liu, Yuyang Xie, Siddharth Bhatia, Bryan Hooi, Wenhan Wang, Xueqi Cheng
   - [[Paper]](https://shenghua-liu.github.io/papers/wsdm2022-monlad.pdf), [[Code]](https://github.com/BGT-M/MonLAD)
 
 - **<div id = 'antico'>Detecting Cash-out Users via Dense Subgraphs (KDD 2022)</div>**
-  - Yingsheng Ji, Zheng Zhang, Xinlei Tang, 
-Jiachen Shen, Xi Zhang, Guangwen Yang
+  - Yingsheng Ji, Zheng Zhang, Xinlei Tang, Jiachen Shen, Xi Zhang, Guangwen Yang
   - [[Slider]](https://github.com/transcope/antico), [[Code]](https://github.com/transcope/antico)
 
+- **<div id = 'futureinfo'>The Importance of Future Information in Credit Card Fraud Detection (AISTATS 2022)</div>** 
+  - Van Bach Nguyen, Kanishka Ghosh Dastidar, Michael Granitzer, Wissam Siblini
+  - [[Paper]](https://proceedings.mlr.press/v151/bach-nguyen22a/bach-nguyen22a.pdf)
+
 ## 2021
-- **<div id = 'xfraud'>xFraud: Explainable Fraud Transaction Detection</div>**
+
+- **<div id = 'xfraud'>xFraud: Explainable Fraud Transaction Detection (VLDB 2021)</div>**
   - Susie Xi Rao, Shuai Zhang, Zhichao Han, Zitao Zhang, Wei Min, Zhiyao Chen, Yinan Shan, Yang Zhao, Ce Zhang
   - [[Paper]](https://drive.google.com/file/d/1OS-iB82tRSM6jbnBiEKbQ87hTeRDfX9K/view), [[Code]](https://github.com/eBay/xFraud/)
+
+- **<div id = 'frodo'>What Happens Behind the Scene? Towards Fraud Community Detection in E-Commerce from Online to Offline (WWW 2021)</div>**
+  - Zhao Li, Pengrui Hui, Peng Zhang, Jiaming Huang, Biao Wang, Ling Tian, Ji Zhang, Jianliang Gao, Xing Tang
+  - [[Paper]](https://sci-hub.wf/10.1145/3442442.3451147)
 
 - **<div id = 'cubeflow'>CubeFlow: Money Laundering Detection with Coupled Tensors (PAKDD 2021)</div>**
   - Xiaobing Sun, Jiabao Zhang, Qiming Zhao, Shenghua Liu, Jinglei Chen, Ruoyu Zhuang, Huawei Shen, Xueqi Cheng  
   - [[Paper]](https://shenghua-liu.github.io/papers/cubeflow-pakdd2021.pdf), [[Code]](https://github.com/BGT-M/spartan2-tutorials/blob/master/CubeFlow.ipynb)
+
+- **<div id = 'c2am'>Two-Level Attention Model of Representation Learning for Fraud Detection (TCSS 2021)</div>**
+  - Ruihao Cao, Guanjun Liu, Yu Xie, Changjun Jiang  
+  - [[Paper]](https://sci-hub.wf/10.1109/tcss.2021.3074175)
+
 
 ## 2020
 
@@ -57,6 +71,11 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
   - Yue Wu, Yunjie Xu, Jiaoyang Li
   - [[Paper]](https://sci-hub.wf/10.1016/j.dss.2019.113155)  
 
+## 2018
+- **<div id = 'sclstm'>Sequence Classification for Credit-card Fraud Detection (ESWA 2018)</div>**
+  - Johannes Jurgovsky, Michael Granitzer, Konstantin Ziegler, Sylvie Calabretto, Pierre-Edouard Portier, Liyun He-Guelton, Olivier Caelen
+  - [[Paper]](https://sci-hub.wf/10.1016/j.eswa.2018.01.037)
+
 ## 2017
 
 - **<div id = 'hitfraud'>HitFraud: A Broad Learning Approach for Collective Fraud Detection in Heterogeneous Information Networks (ICDM 2017)</div>**
@@ -67,6 +86,11 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
   - Yuan Li, Yiheng Sun, Noshir Contractor
   - [[Paper]](https://nosh.northwestern.edu/wp-content/uploads/2020/10/Graph-mining-assisted-semi-supervised-learning-for-fraudulent-cash-out-detection.pdf), [[Slider]](https://nosh.northwestern.edu/wp-content/uploads/2017/08/asonam2017-graph-mining.pdf)
 
+- **<div id = 'fds'>Credit Card Fraud Detection: a Realistic Modeling and a Novel Learning Strategy (TNNLS 2017)</div>**
+  - Andrea Dal Pozzolo, Giacomo Boracchi, Olivier Caelen, Cesare Alippi, Gianluca Bontempi
+  - [[Paper]](https://dalpozz.github.io/static/pdf/TNNLS_2017.pdf)
+
+
 ## 2015
 - **<div id = 'apate'>APATE: A Novel Approach for Automated Credit Card Transaction Fraud Detection using Network-Based Extensions (DSS 2015)</div>**
   - Véronique Van Vlasselaer, Cristián Bravo, Olivier Caelen, Tina EliassRad, Leman Akoglu, Monique Snoeck, Bart Baesen
@@ -75,20 +99,54 @@ Jiachen Shen, Xi Zhang, Guangwen Yang
 
 ## Summary
 
-| Works | Business problem | Scenario | Data modeling | Method type | Method |
-| :---- | :---- | :---- | :---- | :---- | :---- | 
-| [MonLAD](#monlad) | Anti-money laundering | Payment and Settlement | Streaming directed multigraph | Unsupervised | EVT-based anomaly detection |
-| [CubeFlow](#cubeflow) | Anti-money laundering | Payment and Settlement | Coupled Tensors | Unsupervised | Dense subtensor detection |
-| [FlowScope](#flowscope) | Anti-money laundering | Payment and Settlement | Multipartite graph | Unsupervised | Dense subgraph detection |
-| [ANTICO](#antico) | Cash-out detection | Credit card | Bipartite multigraph | Unsupervised | Dense subgraph detection |
-| [HACUD](#hacud)  | Cash-out detection | Credit payment | Attributed HIN | Supervised | Heterogenous GNN |
-| [FDA](#fda)    | Cash-out detection | Credit card | Tabular data | - | Feature engineering |
-| [JD-Finance](#jdfinance) | Cash-out detection | Credit payment | Bipartite graph | Semi-supervised | Markov Random Field |
-| [xFraud](#xfraud) | Fraudulent transactions | E-commerce | Heterogeneous graph | Supervised | Heterogenous GNN |
-| [HitFraud](#hitfraud) | Fraudulent transactions | E-commerce | HIN | Supervised | Meta-path based feature enhanced machine learning |
-| [TitAnt](#titant) | Fraudulent transactions | E-payment | Directed homogeneous graph| Supervised | Graph embedding enhanced machine learning|
-| [DeepTrax](#deeptrax) | Fraudulent transactions | Credit card | Meta-path induced homogeneous graph| Unsupervised | Graph Embedding |
-| [APATE](#apate) | Fraudulent transactions | Credit card | Tripartite graph | Supervised | Fraud propagation feature enhanced machine learning |
-| [HEN](#hen) | Fraudulent transactions | E-commerce | Behaviour event sequence | Supervised | Deep learning and transfer learning |
-| [STAN](#stan) | Fraudulent transactions | Credit card | Tabular data | Supervised | Deep learning |
-| [FCL](fcl) | Fraudulent transactions | Credit card | Tabular data | Supervised | Deep learning | 
+### Application scenarios
+
+| Works | Business problem | Scenario |
+| :---- | :---- | :---- |
+| [MonLAD](#monlad) | Anti-money laundering | Payment and Settlement |
+| [CubeFlow](#cubeflow) | Anti-money laundering | Payment and Settlement |
+| [FlowScope](#flowscope) | Anti-money laundering | Payment and Settlement |
+| [HACUD](#hacud)  | Cash-out detection | Credit payment |
+| [JD-Finance](#jdfinance) | Cash-out detection | Credit payment |
+| [ANTICO](#antico) | Cash-out detection | Credit card |
+| [FDA](#fda)    | Cash-out detection | Credit card |
+| [DeepTrax](#deeptrax) | Fraudulent transactions | Credit card | 
+| [APATE](#apate) | Fraudulent transactions | Credit card | 
+| [C-2AM](#c2am) | Fraudulent transactions | Credit card | 
+| [STAN](#stan) | Fraudulent transactions | Credit card |
+| [FCL](#fcl) | Fraudulent transactions | Credit card |
+| [SC-LSTM](#sclstm)| Fraudulent transactions | Credit card |
+| [FDS](#fds)| Fraudulent transactions | E-commerce / Credit card |
+| [Future-info](#futureinfo) | Fraudulent transactions | Credit card |
+| [xFraud](#xfraud) | Fraudulent transactions | E-commerce |
+| [HitFraud](#hitfraud) | Fraudulent transactions | E-commerce |
+| [HEN](#hen) | Fraudulent transactions | E-commerce |
+| [TitAnt](#titant) | Fraudulent transactions | E-payment |
+| [FRODO](#frodo) | Fraudulent transactions | E-commerce |
+
+
+### Modeling
+
+| Works | Data modeling | Method type | Method |
+| :---- | :---- | :---- | :---- |
+| [MonLAD](#monlad) | Streaming directed multigraph | Unsupervised | EVT-based anomaly detection |
+| [CubeFlow](#cubeflow) | Coupled Tensors | Unsupervised | Dense subtensor detection |
+| [FlowScope](#flowscope) | Multipartite graph | Unsupervised | Dense subgraph detection |
+| [ANTICO](#antico) | Bipartite multigraph | Unsupervised | Dense subgraph detection |
+| [HACUD](#hacud)  | Attributed HIN | Supervised | Heterogenous GNN |
+| [FDA](#fda) | Tabular data | - | Feature engineering |
+| [JD-Finance](#jdfinance) | Bipartite graph | Semi-supervised | Markov Random Field |
+| [FRODO](#frodo) |Heterogeneous graph | Supervised | Heterogenous GNN |
+| [xFraud](#xfraud) | Heterogeneous graph | Supervised | Heterogenous GNN |
+| [HitFraud](#hitfraud) | HIN | Supervised | Meta-path based feature enhanced machine learning |
+| [TitAnt](#titant) | Directed homogeneous graph| Supervised | Graph embedding enhanced machine learning|
+| [DeepTrax](#deeptrax) | Meta-path induced homogeneous graph| Unsupervised | Graph Embedding |
+| [APATE](#apate) | Tripartite graph | Supervised | Fraud propagation feature enhanced machine learning |
+| [HEN](#hen) | Behaviour event sequence | Supervised | Deep learning and transfer learning |
+| [C-2AM](#c2am) | Tabular data | Supervised | Machine learning and deep learning |
+| [STAN](#stan) | Tabular data | Supervised | Deep learning |
+| [FCL](#fcl) | Tabular data | Supervised | Deep learning | 
+| [FDS](#fds) | Tabular data | Supervised | Machine learning | 
+| [Future-info](#futureinfo) | Tabular data | Supervised | Deep learning |
+
+
