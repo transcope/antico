@@ -101,14 +101,14 @@ A list of works on fraud detection in transaction data.
 
 ### Application scenarios
 
-| Works | Business problem | Scenario |
-| :---- | :---- | :---- |
-| [MonLAD](#monlad) | Anti-money laundering | Payment and Settlement |
-| [CubeFlow](#cubeflow) | Anti-money laundering | Payment and Settlement |
-| [FlowScope](#flowscope) | Anti-money laundering | Payment and Settlement |
-| [HACUD](#hacud)  | Cash-out detection | Credit payment |
-| [JD-Finance](#jdfinance) | Cash-out detection | Credit payment |
-| [ANTICO](#antico) | Cash-out detection | Credit card |
+| Works | Business Problem | Scenario | Task | Venue | 
+| :---- | :---- | :---- | :---- | :---- |
+| [MonLAD](#monlad) | Anti-money laundering | Payment and Settlement | | WSDM 2022 |
+| [CubeFlow](#cubeflow) | Anti-money laundering | Payment and Settlement | Middle account detection | PAKDD 2021 |
+| [FlowScope](#flowscope) | Anti-money laundering | Payment and Settlement | Middle account detection | AAAI 2020 |
+| [JD-Finance](#jdfinance) | Cash-out detection | Credit payment | Cash-out merchant detection | ASONMA 2017 |
+| [HACUD](#hacud)  | Cash-out detection | Credit payment | Cash-out user detection | AAAI 2019 |
+| [ANTICO](#antico) | Cash-out detection | Credit card | Cash-out user detection | KDD 2022 |
 | [FDA](#fda)    | Cash-out detection | Credit card |
 | [DeepTrax](#deeptrax) | Fraudulent transactions | Credit card | 
 | [APATE](#apate) | Fraudulent transactions | Credit card | 
@@ -116,8 +116,8 @@ A list of works on fraud detection in transaction data.
 | [STAN](#stan) | Fraudulent transactions | Credit card |
 | [FCL](#fcl) | Fraudulent transactions | Credit card |
 | [SC-LSTM](#sclstm)| Fraudulent transactions | Credit card |
-| [FDS](#fds)| Fraudulent transactions | E-commerce / Credit card |
-| [Future-info](#futureinfo) | Fraudulent transactions | Credit card |
+| [FDS](#fds)| Fraudulent transactions | Credit card <br> Fraud detection system | Data-driven fraud alert |
+| [Future-info](#futureinfo) | Fraudulent transactions | Credit card <br> Fraud detection system| Posterior analysis / detection |
 | [xFraud](#xfraud) | Fraudulent transactions | E-commerce |
 | [HitFraud](#hitfraud) | Fraudulent transactions | E-commerce |
 | [HEN](#hen) | Fraudulent transactions | E-commerce |
@@ -149,4 +149,34 @@ A list of works on fraud detection in transaction data.
 | [FDS](#fds) | Tabular data | Supervised | Machine learning | 
 | [Future-info](#futureinfo) | Tabular data | Supervised | Deep learning |
 
+
+### Graph modeling
+
+| Works | Graph model | Method type | Method |
+| :---- | :---- | :---- | :---- |
+| [CubeFlow](#cubeflow) | Coupled Tensors | Unsupervised | Dense subtensor detection |
+| [FlowScope](#flowscope) | Multipartite graph | Unsupervised | Dense subgraph detection |
+| [ANTICO](#antico) | Bipartite multigraph | Unsupervised | Dense subgraph detection |
+| [HACUD](#hacud)  | Attributed HIN | Supervised | Heterogenous GNN |
+| [JD-Finance](#jdfinance) | Bipartite graph | Semi-supervised | Markov Random Field |
+| [FRODO](#frodo) |Heterogeneous graph | Supervised | Heterogenous GNN |
+| [xFraud](#xfraud) | Heterogeneous graph | Supervised | Heterogenous GNN |
+| [HitFraud](#hitfraud) | HIN | Supervised | Meta-path based feature enhanced machine learning |
+| [TitAnt](#titant) | Directed homogeneous graph| Supervised | Graph embedding enhanced machine learning|
+| [DeepTrax](#deeptrax) | Meta-path induced homogeneous graph| Unsupervised | Graph Embedding |
+| [APATE](#apate) | Tripartite graph | Supervised | Fraud propagation feature enhanced machine learning |
+
+
+### Machine learning
+
+| Works | Data | Method type | Method |
+| :---- | :---- | :---- | :---- |
+| [MonLAD](#monlad) | Streaming directed multigraph | Unsupervised | EVT-based anomaly detection |
+| [APATE](#apate) | Tripartite graph | Supervised | Fraud propagation feature enhanced machine learning |
+| [HEN](#hen) | Behaviour event sequence | Supervised | Deep learning and transfer learning |
+| [C-2AM](#c2am) | Tabular data | Supervised | Machine learning and deep learning |
+| [STAN](#stan) | Tabular data | Supervised | Deep learning |
+| [FCL](#fcl) | Tabular data | Supervised | Deep learning | 
+| [FDS](#fds) | Tabular data | Supervised | Machine learning | 
+| [Future-info](#futureinfo) | Take advantage of transactions between alert and investigation | Supervised | Deep learning <br>Bi-directional LSTM |
 
