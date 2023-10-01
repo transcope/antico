@@ -1,5 +1,5 @@
-
-##Introduction
+Introduction
+------
 Code for paper "[Detecting Cash-out Users via Dense Subgraphs](https://dl.acm.org/doi/abs/10.1145/3534678.3539252)" 
 
 ANTICO is developped for spotting cash-out users based on bipartite graph and subgraph detection. It is designed for credit card services and real-world banking data.
@@ -10,8 +10,8 @@ Main Contact:
 - Zheng Zhang (zhang.zh0707@gmail.com)
 
 
-##Running ANTICO on a test example
-
+Running ANTICO on a test example
+------
 Support python 3.6
 
     pip install -r requirements.txt
@@ -31,10 +31,8 @@ Input Data Fromat:
 
 The main configuration items involve start\_date and ending\_date, and time\_spans in config.py. 
 
-##Cite
-
-latex
-
+Cite
+------
 ```latex
 @inproceedings{ji2022detecting,
   title={Detecting cash-out users via dense subgraphs},
