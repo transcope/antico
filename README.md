@@ -1,9 +1,10 @@
 Introduction
 ------
-Implementation of our KDD paper "[Detecting Cash-out Users via Dense Subgraphs](https://dl.acm.org/doi/abs/10.1145/3534678.3539252)".
+Implementation of our KDD paper "Detecting Cash-out Users via Dense Subgraphs".
 [[Paper]](https://github.com/transcope/antico/blob/master/doc/kdd2022-antico.pdf)
 [[Code]](https://github.com/transcope/antico)
 [[Video]](https://dl.acm.org/doi/abs/10.1145/3534678.3539252#)
+[[Link]](https://dl.acm.org/doi/abs/10.1145/3534678.3539252)
   
 ANTICO is developped for spotting cash-out users based on bipartite graph and subgraph detection. It is designed for credit card services and real-world banking data.
 
