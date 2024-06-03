@@ -1,7 +1,7 @@
 Introduction
 ------
-Implementation of our KDD paper "[Detecting Cash-out Users via Dense Subgraphs](https://github.com/transcope/antico/blob/master/doc/kdd2022-antico.pdf)".
-[[Link]](https://dl.acm.org/doi/abs/10.1145/3534678.3539252)
+Implementation of our KDD paper "[Detecting Cash-out Users via Dense Subgraphs](https://dl.acm.org/doi/abs/10.1145/3534678.3539252)".
+[[Paper]](https://github.com/transcope/antico/blob/master/doc/kdd2022-antico.pdf)
 [[Code]](https://github.com/transcope/antico)
 [[Video]](https://dl.acm.org/doi/abs/10.1145/3534678.3539252#)
   
